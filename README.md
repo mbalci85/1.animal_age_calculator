@@ -1,2 +1,1 @@
-Hello Papa
-Oglun geldi, Almanya'dan.......
+Animal age calculator
