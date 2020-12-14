@@ -1,33 +1,34 @@
-//My age
-// let myAge = prompt('Enter Your Age:');
+//toLowerCase() change all letters to lower case
+let myName = prompt('Enter your name: ').toUpperCase();
 
-//The value of early years will be changed
-// let earlyYears = 2;
+// Define a variable to assign my age
+let myAge = prompt('Enter your human age: ');
 
-// earlyYears *= 10.5;
+// This will change
+let earlyYears = 2;
 
-// //The value of later years will be changed
-// laterYears = myAge - 2;
+earlyYears *= 10.5;
 
-// laterYears *= 4;
+//lateryears shows the number of years after early years
+laterYears = myAge - 2;
 
+//convertion to dog years of later years of human age
+laterYears *= 4;
 
-// //This calculates age in dog years
-// myAgeInDogYears = earlyYears + laterYears;
+//check if it works so far
+console.log(earlyYears, laterYears);
 
-// //This makes my name all lowercase letters
-myName = prompt('Enter Your Name:').toLowerCase();
+//sum of early years and later years
+let myAgeInDogYears = earlyYears + laterYears;
 
+alert(
+	`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`,
+);
 
-//This is the statement shows both my name, my human age, and dog age years..
-// console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+let dogAge = prompt('Enter your dog age: ');
 
-myDogAge = prompt('Enter Your Dog Age:');
+let myAgeinHumanYears = (dogAge - 21) / 4 + 2;
 
-myHumanAge = (myDogAge - 21)/4 + 2;
-
-console.log(`My name is ${myName}. I am ${myDogAge} dog years old. My human age is ${myHumanAge}.`)
-
-
-
-
+alert(
+	`My name is ${myName}. I am ${dogAge} years old in dog years. My human age is ${myAgeinHumanYears} in human years.`,
+);
