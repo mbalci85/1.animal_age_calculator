@@ -15,9 +15,6 @@ laterYears = myAge - 2;
 //convertion to dog years of later years of human age
 laterYears *= 4;
 
-//check if it works so far
-console.log(earlyYears, laterYears);
-
 //sum of early years and later years
 let myAgeInDogYears = earlyYears + laterYears;
 
