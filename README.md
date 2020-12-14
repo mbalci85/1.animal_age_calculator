@@ -1,2 +1,1 @@
-# animal_age_calculator
- 
+Animal age calculator
